@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import HeroSection from "./Hero/Herosection";
+import HeroSection from "./hero/HeroSection";
 import Trending from "./Trending/Trending";
 import Popular from "./popular/Popular";
 import TopRated from "./topRated/TopRated";
