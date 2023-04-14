@@ -13,7 +13,7 @@ const Similar = ({ mediaType, id }) => {
       {data && (
         <Carousell>
           {data?.results?.map((item) => (
-            <MovieCard data={item} endpoint={mediaType} />
+            <MovieCard key={item.id} data={item} endpoint={mediaType} />
           ))}
         </Carousell>
       )}
